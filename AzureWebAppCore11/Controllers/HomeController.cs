@@ -15,7 +15,7 @@ namespace AzureWebAppCore11.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Azure application description page.";
 
             return View();
         }
